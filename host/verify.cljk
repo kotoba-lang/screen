@@ -1,4 +1,4 @@
-;; host/verify.clj — run the screen library's golden vectors three ways:
+;; host/verify.cljk — run the screen library's golden vectors three ways:
 ;;   1. JVM  : compile + run through kotoba.compiler (amu's own route)
 ;;   2. native: compile aarch64 + sign + execute through kototama.native.executor
 ;; Both must agree with the literal expectations inside screen/test.kotoba.

@@ -1,7 +1,7 @@
 ;; screen.test — golden vectors for the screen library.
 ;;
 ;; 17 assertions, one i64 sum: every `(if (…) 1 0)` is an assertion, and
-;; the expected total is exactly 17. The runner (host/verify.clj) compiles
+;; the expected total is exactly 17. The runner (host/verify.cljk) compiles
 ;; the closed module graph with kotoba.compiler/compile-project and executes
 ;; it through kototama.native.executor/execute (signed artifact, measured
 ;; loader, aarch64) — JVM-free toolchain, JVM only as the test driver.
