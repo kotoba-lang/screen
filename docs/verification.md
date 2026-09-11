@@ -22,7 +22,7 @@
    closed graph compiled with `kotoba.compiler/compile-project`, signed with
    a fresh Ed25519 keypair, executed through
    `kototama.native.executor/execute` (aarch64, measured loader,
-   `:trusted-runtime-sha256` pinned). Driver: `host/verify.clj`.
+   `:trusted-runtime-sha256` pinned). Driver: `host/verify.cljk`.
 
 ## Known upstream gap (not screen-specific)
 

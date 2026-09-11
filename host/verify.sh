@@ -6,7 +6,7 @@
 #   2. a runtime measurement + loader from amu's measure-runtime:
 #        cd ../amu && bin/amu measure-runtime --output /tmp/runtime.edn \
 #          --loader-output /tmp/kotoba-loader
-#      then paste the printed :runtime-sha256 into host/verify.clj's
+#      then paste the printed :runtime-sha256 into host/verify.cljk's
 #      :trusted-runtime-sha256 (native execution is never trust-on-first-use).
 #   3. JVM (the test driver only — the guest itself is JVM-free).
 set -euo pipefail
