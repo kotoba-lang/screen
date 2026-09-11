@@ -14,6 +14,6 @@ set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 AMU="$(cd "$HERE/../.." && pwd)/amu"   # adjust if amu lives elsewhere
 
-CP="/tmp:$(cd "$AMU" && clojure -Spath -M:native-run)"
+CP="/tmp:$(cd "$AMU" && kbb -Spath -M:native-run)"
 
 java -cp "$CP" clojure.main -e "(require 'screen-verify) (screen-verify/-main)"
